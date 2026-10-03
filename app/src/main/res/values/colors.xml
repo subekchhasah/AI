@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Indigo Palette -->
+    <color name="md_theme_light_primary">#6366F1</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#EEF2FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#312E81</color>
+
+    <!-- Secondary Sunset Coral Palette -->
+    <color name="md_theme_light_secondary">#FF6B6B</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#FFE4E6</color>
+    <color name="md_theme_light_onSecondaryContainer">#9F1239</color>
+
+    <!-- Tertiary Emerald Accent -->
+    <color name="md_theme_light_tertiary">#10B981</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#D1FAE5</color>
+    <color name="md_theme_light_onTertiaryContainer">#065F46</color>
+
+    <!-- Neutral Background & Surfaces -->
+    <color name="md_theme_light_background">#F8FAFC</color>
+    <color name="md_theme_light_onBackground">#0F172A</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#0F172A</color>
+    <color name="md_theme_light_surfaceVariant">#F1F5F9</color>
+    <color name="md_theme_light_onSurfaceVariant">#475569</color>
+    <color name="md_theme_light_outline">#CBD5E1</color>
+
+    <!-- Error States -->
+    <color name="md_theme_light_error">#EF4444</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FEE2E2</color>
+    <color name="md_theme_light_onErrorContainer">#991B1B</color>
+
+    <!-- Dark Theme Palette -->
+    <color name="md_theme_dark_primary">#818CF8</color>
+    <color name="md_theme_dark_onPrimary">#1E1B4B</color>
+    <color name="md_theme_dark_primaryContainer">#3730A3</color>
+    <color name="md_theme_dark_onPrimaryContainer">#EEF2FF</color>
+
+    <color name="md_theme_dark_secondary">#FF8E53</color>
+    <color name="md_theme_dark_onSecondary">#4C0519</color>
+    <color name="md_theme_dark_secondaryContainer">#881337</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFE4E6</color>
+
+    <color name="md_theme_dark_background">#0F172A</color>
+    <color name="md_theme_dark_onBackground">#F8FAFC</color>
+    <color name="md_theme_dark_surface">#1E293B</color>
+    <color name="md_theme_dark_onSurface">#F8FAFC</color>
+    <color name="md_theme_dark_surfaceVariant">#334155</color>
+    <color name="md_theme_dark_onSurfaceVariant">#CBD5E1</color>
+
+    <!-- Category Specific Pill Badges -->
+    <color name="category_feeding_bg">#E0F2FE</color>
+    <color name="category_feeding_text">#0369A1</color>
+    <color name="category_exercise_bg">#DCFCE7</color>
+    <color name="category_exercise_text">#15803D</color>
+    <color name="category_grooming_bg">#F3E8FF</color>
+    <color name="category_grooming_text">#6B21A8</color>
+    <color name="category_medication_bg">#FEE2E2</color>
+    <color name="category_medication_text">#B91C1C</color>
+    <color name="category_healthcare_bg">#FEF3C7</color>
+    <color name="category_healthcare_text">#B45309</color>
+</resources>
