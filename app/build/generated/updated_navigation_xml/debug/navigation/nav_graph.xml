@@ -1,0 +1,349 @@
+<navigation
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/nav_graph"
+app:startDestination="@id/welcomeFragment" >
+
+<!-- Auth Navigation -->
+<fragment
+    android:id="@+id/welcomeFragment"
+    android:name="com.example.petcare.ui.auth.WelcomeFragment"
+    android:label="Welcome"
+    tools:layout="@layout/fragment_welcome" >
+
+    <action
+        android:id="@+id/action_welcome_to_login"
+        app:destination="@id/loginFragment" />
+    <action
+        android:id="@+id/action_welcome_to_home"
+        app:destination="@id/homeFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_welcome_to_register"
+        app:destination="@id/registerFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/loginFragment"
+    android:name="com.example.petcare.ui.auth.LoginFragment"
+    android:label="Login"
+    tools:layout="@layout/fragment_login" >
+
+    <action
+        android:id="@+id/action_login_to_home"
+        app:destination="@id/homeFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_login_to_register"
+        app:destination="@id/registerFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/registerFragment"
+    android:name="com.example.petcare.ui.auth.RegisterFragment"
+    android:label="Register"
+    tools:layout="@layout/fragment_register" >
+
+    <action
+        android:id="@+id/action_register_to_home"
+        app:destination="@id/homeFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_register_to_login"
+        app:destination="@id/loginFragment" />
+
+</fragment>
+
+<!-- Home Dashboard -->
+<fragment
+    android:id="@+id/homeFragment"
+    android:name="com.example.petcare.ui.home.HomeFragment"
+    android:label="PetCare Dashboard"
+    tools:layout="@layout/fragment_home" >
+
+    <action
+        android:id="@+id/action_home_to_addPet"
+        app:destination="@id/addEditPetFragment" />
+    <action
+        android:id="@+id/action_home_to_checklist"
+        app:destination="@id/checklistFragment" />
+    <action
+        android:id="@+id/action_home_to_addTask"
+        app:destination="@id/addEditTaskFragment" />
+    <action
+        android:id="@+id/action_home_to_addExpense"
+        app:destination="@id/addEditExpenseFragment" />
+    <action
+        android:id="@+id/action_home_to_locations"
+        app:destination="@id/locationListFragment" />
+    <action
+        android:id="@+id/action_home_to_petDetail"
+        app:destination="@id/petDetailFragment" />
+    <action
+        android:id="@+id/action_home_to_notifications"
+        app:destination="@id/notificationListFragment" />
+
+</fragment>
+
+<!-- Pets Navigation -->
+<fragment
+    android:id="@+id/petListFragment"
+    android:name="com.example.petcare.ui.pets.PetListFragment"
+    android:label="My Pets"
+    tools:layout="@layout/fragment_pet_list" >
+
+    <action
+        android:id="@+id/action_petList_to_addPet"
+        app:destination="@id/addEditPetFragment" />
+    <action
+        android:id="@+id/action_petList_to_petDetail"
+        app:destination="@id/petDetailFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/petDetailFragment"
+    android:name="com.example.petcare.ui.pets.PetDetailFragment"
+    android:label="Pet Details"
+    tools:layout="@layout/fragment_pet_detail" >
+
+    <argument
+        android:name="petId"
+        app:argType="long" />
+
+    <action
+        android:id="@+id/action_petDetail_to_editPet"
+        app:destination="@id/addEditPetFragment" />
+    <action
+        android:id="@+id/action_petDetail_to_addTask"
+        app:destination="@id/addEditTaskFragment" />
+    <action
+        android:id="@+id/action_petDetail_to_addRoutine"
+        app:destination="@id/addEditRoutineFragment" />
+    <action
+        android:id="@+id/action_petDetail_to_addMedical"
+        app:destination="@id/addEditMedicalFragment" />
+    <action
+        android:id="@+id/action_petDetail_to_addExpense"
+        app:destination="@id/addEditExpenseFragment" />
+    <action
+        android:id="@+id/action_petDetail_to_addLocation"
+        app:destination="@id/addEditLocationFragment" />
+    <action
+        android:id="@+id/action_petDetail_to_smsDelegation"
+        app:destination="@id/smsDelegationFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/addEditPetFragment"
+    android:name="com.example.petcare.ui.pets.AddEditPetFragment"
+    android:label="Add/Edit Pet"
+    tools:layout="@layout/fragment_add_edit_pet" >
+
+    <argument
+        android:name="petId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+
+</fragment>
+
+<!-- Checklist & Tasks Navigation -->
+<fragment
+    android:id="@+id/checklistFragment"
+    android:name="com.example.petcare.ui.tasks.ChecklistFragment"
+    android:label="Today&apos;s Checklist"
+    tools:layout="@layout/fragment_checklist" >
+
+    <action
+        android:id="@+id/action_checklist_to_addTask"
+        app:destination="@id/addEditTaskFragment" />
+    <action
+        android:id="@+id/action_checklist_to_editTask"
+        app:destination="@id/addEditTaskFragment" />
+    <action
+        android:id="@+id/action_checklist_to_smsDelegation"
+        app:destination="@id/smsDelegationFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/addEditTaskFragment"
+    android:name="com.example.petcare.ui.tasks.AddEditTaskFragment"
+    android:label="Add/Edit Care Task"
+    tools:layout="@layout/fragment_add_edit_task" >
+
+    <argument
+        android:name="taskId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+    <argument
+        android:name="petId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+
+</fragment>
+
+<!-- Routines Navigation -->
+<fragment
+    android:id="@+id/routineListFragment"
+    android:name="com.example.petcare.ui.routines.RoutineListFragment"
+    android:label="Care Routines"
+    tools:layout="@layout/fragment_routine_list" >
+
+    <action
+        android:id="@+id/action_routineList_to_addRoutine"
+        app:destination="@id/addEditRoutineFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/addEditRoutineFragment"
+    android:name="com.example.petcare.ui.routines.AddEditRoutineFragment"
+    android:label="Add/Edit Care Routine"
+    tools:layout="@layout/fragment_add_edit_routine" >
+
+    <argument
+        android:name="routineId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+    <argument
+        android:name="petId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+
+</fragment>
+
+<!-- SMS Delegation Navigation -->
+<fragment
+    android:id="@+id/smsDelegationFragment"
+    android:name="com.example.petcare.ui.delegation.SmsDelegationFragment"
+    android:label="Delegate Care Plan"
+    tools:layout="@layout/fragment_sms_delegation" >
+
+    <argument
+        android:name="petId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+
+</fragment>
+
+<!-- Medical Navigation -->
+<fragment
+    android:id="@+id/medicalListFragment"
+    android:name="com.example.petcare.ui.medical.MedicalListFragment"
+    android:label="Medical Records"
+    tools:layout="@layout/fragment_medical_list" >
+
+    <action
+        android:id="@+id/action_medicalList_to_addMedical"
+        app:destination="@id/addEditMedicalFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/addEditMedicalFragment"
+    android:name="com.example.petcare.ui.medical.AddEditMedicalFragment"
+    android:label="Add/Edit Medical Record"
+    tools:layout="@layout/fragment_add_edit_medical" >
+
+    <argument
+        android:name="medicalRecordId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+    <argument
+        android:name="petId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+
+</fragment>
+
+<!-- Expenses Navigation -->
+<fragment
+    android:id="@+id/expenseListFragment"
+    android:name="com.example.petcare.ui.expenses.ExpenseListFragment"
+    android:label="Expense Tracker"
+    tools:layout="@layout/fragment_expense_list" >
+
+    <action
+        android:id="@+id/action_expenseList_to_addExpense"
+        app:destination="@id/addEditExpenseFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/addEditExpenseFragment"
+    android:name="com.example.petcare.ui.expenses.AddEditExpenseFragment"
+    android:label="Add/Edit Expense"
+    tools:layout="@layout/fragment_add_edit_expense" >
+
+    <argument
+        android:name="expenseId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+    <argument
+        android:name="petId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+
+</fragment>
+
+<!-- Geotagging & Locations Navigation -->
+<fragment
+    android:id="@+id/locationListFragment"
+    android:name="com.example.petcare.ui.locations.LocationListFragment"
+    android:label="Pet Locations"
+    tools:layout="@layout/fragment_location_list" >
+
+    <action
+        android:id="@+id/action_locationList_to_map"
+        app:destination="@id/mapFragment" />
+    <action
+        android:id="@+id/action_locationList_to_addLocation"
+        app:destination="@id/addEditLocationFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/mapFragment"
+    android:name="com.example.petcare.ui.locations.MapFragment"
+    android:label="Pet Locations Map"
+    tools:layout="@layout/fragment_map" >
+
+    <action
+        android:id="@+id/action_map_to_addLocation"
+        app:destination="@id/addEditLocationFragment" />
+
+</fragment>
+<fragment
+    android:id="@+id/addEditLocationFragment"
+    android:name="com.example.petcare.ui.locations.AddEditLocationFragment"
+    android:label="Add/Edit Pet Location"
+    tools:layout="@layout/fragment_add_edit_location" >
+
+    <argument
+        android:name="locationId"
+        android:defaultValue="-1L"
+        app:argType="long" />
+
+</fragment>
+
+<!-- Notifications Navigation -->
+<fragment
+    android:id="@+id/notificationListFragment"
+    android:name="com.example.petcare.ui.notifications.NotificationListFragment"
+    android:label="Notifications &amp; Alerts"
+    tools:layout="@layout/fragment_notification_list" />
+
+<!-- Settings Navigation -->
+<fragment
+    android:id="@+id/settingsFragment"
+    android:name="com.example.petcare.ui.settings.SettingsFragment"
+    android:label="Settings"
+    tools:layout="@layout/fragment_settings" >
+
+    <action
+        android:id="@+id/action_settings_to_welcome"
+        app:destination="@id/welcomeFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+
+</fragment>
+</navigation>

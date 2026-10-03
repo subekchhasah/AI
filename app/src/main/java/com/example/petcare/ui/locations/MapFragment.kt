@@ -71,13 +71,13 @@ class MapFragment : Fragment(), OnMapReadyCallback {
         setupWebViewMap()
 
         binding.toggleMapMode.check(R.id.btn_mode_street)
-        showWebMap(isSatellite = false)
+        showNativeMap(isSatellite = false)
 
         binding.toggleMapMode.addOnButtonCheckedListener { _, checkedId, isChecked ->
             if (isChecked) {
                 when (checkedId) {
-                    R.id.btn_mode_satellite -> showWebMap(isSatellite = true)
-                    R.id.btn_mode_street -> showWebMap(isSatellite = false)
+                    R.id.btn_mode_satellite -> showNativeMap(isSatellite = true)
+                    R.id.btn_mode_street -> showNativeMap(isSatellite = false)
                 }
             }
         }
@@ -95,14 +95,15 @@ class MapFragment : Fragment(), OnMapReadyCallback {
 
     private fun updateAllMapMarkers() {
         val isSatellite = binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite
-        updateWebMapMarkers(locationList, isSatellite)
         updateGoogleMapMarkers(locationList)
+        updateWebMapMarkers(locationList, isSatellite)
     }
 
-    private fun showWebMap(isSatellite: Boolean = false) {
-        binding.mapView.visibility = View.GONE
-        binding.webMapView.visibility = View.VISIBLE
-        updateWebMapMarkers(locationList, isSatellite)
+    private fun showNativeMap(isSatellite: Boolean = false) {
+        binding.mapView.visibility = View.VISIBLE
+        binding.webMapView.visibility = View.GONE
+        googleMap?.mapType = if (isSatellite) GoogleMap.MAP_TYPE_HYBRID else GoogleMap.MAP_TYPE_NORMAL
+        updateGoogleMapMarkers(locationList)
     }
 
     private fun setupWebViewMap() {
@@ -134,7 +135,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
         val tileUrl = if (isSatellite) {
             "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
         } else {
-            "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+            "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"
         }
 
         val markersListJson = StringBuilder("[")
@@ -178,9 +179,8 @@ class MapFragment : Fragment(), OnMapReadyCallback {
                     var map = L.map('map').setView([$centerLat, $centerLng], 12);
 
                     L.tileLayer('$tileUrl', {
-                        subdomains: 'abcd',
-                        maxZoom: 20,
-                        attribution: '© OpenStreetMap contributors © CARTO'
+                        maxZoom: 19,
+                        attribution: 'Tiles © Esri'
                     }).addTo(map);
 
                     var markersGroup = new L.FeatureGroup();
@@ -213,32 +213,33 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     private fun updateGoogleMapMarkers(locations: List<PetLocation>) {
         googleMap?.let { map ->
             map.clear()
-            if (locations.isNotEmpty()) {
-                val builder = LatLngBounds.Builder()
-                locations.forEach { loc ->
-                    val pos = LatLng(loc.latitude, loc.longitude)
-                    val matchedPet = petList.find { it.petId == loc.petId }
-                    val petName = matchedPet?.name ?: "All Pets"
-                    map.addMarker(
-                        MarkerOptions()
-                            .position(pos)
-                            .title("${loc.name} (Pet: $petName)")
-                            .snippet("${loc.type} • ${loc.address}")
-                    )
-                    builder.include(pos)
-                }
-                try {
-                    val bounds = builder.build()
-                    val padding = 100 // pixels
-                    val cu = CameraUpdateFactory.newLatLngBounds(bounds, padding)
-                    map.animateCamera(cu)
-                } catch (e: Exception) {
-                    val firstLoc = LatLng(locations.first().latitude, locations.first().longitude)
-                    map.moveCamera(CameraUpdateFactory.newLatLngZoom(firstLoc, 12f))
-                }
-            } else {
-                val london = LatLng(51.5074, -0.1278)
-                map.moveCamera(CameraUpdateFactory.newLatLngZoom(london, 10f))
+            val displayLocations = if (locations.isNotEmpty()) locations else listOf(
+                PetLocation(1L, null, "Happy Paws Vet Clinic", "Veterinary Clinic", 51.5074, -0.1278, "123 High St, London", "24/7 Emergency Vet"),
+                PetLocation(2L, null, "Greenwood Dog Park", "Dog Park", 51.5150, -0.1410, "Greenwood Ave, London", "Agility park & fenced run"),
+                PetLocation(3L, null, "PetCare Supply Shop", "Pet Store", 51.4990, -0.1350, "King's Road, London", "Grooming & Supplies")
+            )
+
+            val builder = LatLngBounds.Builder()
+            displayLocations.forEach { loc ->
+                val pos = LatLng(loc.latitude, loc.longitude)
+                val matchedPet = petList.find { it.petId == loc.petId }
+                val petName = matchedPet?.name ?: "All Pets"
+                map.addMarker(
+                    MarkerOptions()
+                        .position(pos)
+                        .title("${loc.name} (Pet: $petName)")
+                        .snippet("${loc.type} • ${loc.address}")
+                )
+                builder.include(pos)
+            }
+            try {
+                val bounds = builder.build()
+                val padding = 120 // pixels
+                val cu = CameraUpdateFactory.newLatLngBounds(bounds, padding)
+                map.animateCamera(cu)
+            } catch (e: Exception) {
+                val firstLoc = LatLng(displayLocations.first().latitude, displayLocations.first().longitude)
+                map.moveCamera(CameraUpdateFactory.newLatLngZoom(firstLoc, 12f))
             }
         }
     }

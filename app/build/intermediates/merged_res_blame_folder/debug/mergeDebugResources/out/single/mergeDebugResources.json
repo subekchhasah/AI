@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_quick_checklist_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_quick_checklist_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/color_bottom_nav_indicator_color.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/color/bottom_nav_indicator_color.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_quick_location_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_quick_location_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_nav_checklist.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_nav_checklist.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_home.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_item_location_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_location_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_pet_rocky.jpg.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/pet_rocky.jpg"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_pet_coco.jpg.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/pet_coco.jpg"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_medical.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_medical.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_avatar_circle.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_avatar_circle.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_pet_detail.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_pet_detail.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/anim_item_bounce.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/anim/item_bounce.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_item_notification_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_notification_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_add_edit_pet.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_pet.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_pet_husky.jpg.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/pet_husky.jpg"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_add_edit_medical.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_medical.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_settings.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_add_edit_routine.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_routine.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_routine_list.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_routine_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_quick_pet_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_quick_pet_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_category_chip.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_category_chip.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_auth_gradient.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_auth_gradient.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_register.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_quick_task_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_quick_task_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_add_edit_task.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_task.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_pet_max.jpg.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/pet_max.jpg"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_location_list.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_location_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/anim_slide_out_right.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_item_pet_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_pet_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_delete.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_hero_card_gradient.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_hero_card_gradient.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_item_medical_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_medical_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_nav_home.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_nav_home.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_notification_bottom_sheet.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_notification_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_add_edit_location.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_location.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_item_expense_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_expense_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_chevron_right.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_chevron_right.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_calendar.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_calendar.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_item_task_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_task_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_activity_reminder_alert.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/activity_reminder_alert.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/anim_slide_in_left.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_expense_list.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_expense_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/anim_slide_out_left.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_pet_daisy.jpg.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/pet_daisy.jpg"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_welcome.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_welcome.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_add_edit_expense.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_expense.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/anim_slide_in_right.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_medical_list.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_medical_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_sms_delegation.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_sms_delegation.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/color_bottom_nav_item_color.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/color/bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_bg_auth_card.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/bg_auth_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_login.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_edit.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_add.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_clock.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_clock.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_nav_locations.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_nav_locations.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_user_profile.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_user_profile.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_notification_bell.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_notification_bell.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_item_pet_card_home.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_pet_card_home.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_map.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_checklist.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_checklist.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.petcare.app-debug-52:/layout_fragment_notification_list.xml.flat",
+        "source": "com.example.petcare.app-main-54:/layout/fragment_notification_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_fragment_pet_list.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_pet_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/xml_backup_rules.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/layout_activity_main.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_delegate.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_delegate.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_nav_expenses.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_nav_expenses.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-debug-52:/drawable_ic_nav_pets.xml.flat",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/drawable/ic_nav_pets.xml"
+    }
+]

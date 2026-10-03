@@ -1,0 +1,524 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:2:1-72:12
+MERGED from [androidx.databinding:viewbinding:9.4.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/11e87e2e3b641eaedcf3e6dc3832b75a/transformed/viewbinding-9.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/1ce2bd07582052b79084093417e9f100/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/986d117157114d10de895e02bd1d25fe/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/7d62ae3fb221ef039a764e02ff3f9446/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a1b0dc747d68160c7b3d9c71836ff663/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/2d7532ae2acf0ddc672ffa11e9391d7e/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/dc3c768a66cdf04ff79217a563865485/transformed/navigation-fragment-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d1152ef25f952438271a8868300a5ccf/transformed/navigation-ui-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3c11285bf4c12b10c5b7b82eefb56e8f/transformed/navigation-ui-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.11.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fea852b416ef81daf5b16d9f85acc8af/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d0a66d2fbffd629f1e78fdeca025d6e1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/53d2956c8d5ea192b60362e7ba13eccd/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/cc6ea684d9a9cd7728bb2c95931c5210/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/bb0d193364fea9ac356a460179cf935a/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:17:1-44:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/7a319bfd6d896df205ce03d3e1ea6f78/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/609438b2be5ff0e98567c966ecd6275a/transformed/play-services-location-21.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d6c0b256bb8f42d07c2ea9e8b933df0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fff72941c6e344ccca3267a251b1bca7/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/70ab5c32cda755f57a8888c42a8e315a/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/b32314acb3c64728c7df6a1e9a4a051d/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/47d293c35761b22b19448b86a1074fc6/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/905fbb0892cae139aed85fa1e1695388/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/afdb9306882d1880ee5ce31b3d41ccfc/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/80dc9cf179a487ea36c929912e9c5a5c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/43f0a634e806282a6904c7facda4aebf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e53d851f0d259ba0c8fa28deb2242e69/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d6becdff6990233d5c49fb509019977f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/207d340ad8226939614efb21bea4fb62/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/16988b81fcaadd252955995c34987f0f/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fe51be70f8b849f9bf3e8a0d89b4857a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/cc38bda53bdfdace801ff203e61fabc9/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/533e5c16bb6f2d9a623810beda8f94f9/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/72a622baeeced88a38fb6d95b5d06c88/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6179c0d109ad7152bc2000a5693441e2/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a18847f99728202a29aec7ab020f555e/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/f16a5e99c0d20b9737d31f56bf6640a3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3da809cb98a17c963a6906ef0eaa58a5/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9f07160f084b2f2d40517aa956939d65/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4ab2aad2e8bd9910acd0bf230a6865f8/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3088c1355f40fda476db94ea060d0180/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e96bac933f431a9684dba57b41ad99d0/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fe27174087b22ea2fbd2c4342a03bf3e/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/984e7d63483da359cb790af3bb4fba4a/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/0260cc5ab6d7cfa97dcbe33f3aaadb19/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e98bfe30eb32fd845bb53703ab51fd13/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a42d2f25934a16882dd98bac2fdf5da6/transformed/room-ktx-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/383d0ba61928bf38bd59c69638b8f727/transformed/annotation-experimental-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/21c9a632145e95097666665ba2ac8bc0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6b91cca1928d81a813f554dc313b983b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/986fe670b3537cd976ef7d229f3846bf/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c4a977d1cd43ca8acc8fc634ce3d2b31/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97dc02a5214bc69fa7b0fda65d5ce36b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4a3c3d358c3a59abdaa52ef1676a93ce/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4e338aa8c7bdd14d3ea2f69c0d8be174/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/bc9cdeed8556f97c4bcc2635610f9f26/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c98747b029542a801df14f919b2bc08a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bf64f9f462d61e43fcdc0184b8009bb/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/b467371abbfd30c7d90d3abbf9250229/transformed/sqlite-framework/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-android:2.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e2f61e7ea8f1f051a6900f776ff9c666/transformed/sqlite/AndroidManifest.xml:17:1-22:12
+	package
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:4:5-34
+		INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:15:22-74
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:19:5-107
+	android:maxSdkVersion
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:19:78-104
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:19:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:23:22-78
+application
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:25:5-70:19
+INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:25:5-70:19
+MERGED from [com.google.android.material:material:1.11.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fea852b416ef81daf5b16d9f85acc8af/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fea852b416ef81daf5b16d9f85acc8af/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d0a66d2fbffd629f1e78fdeca025d6e1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d0a66d2fbffd629f1e78fdeca025d6e1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/609438b2be5ff0e98567c966ecd6275a/transformed/play-services-location-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/609438b2be5ff0e98567c966ecd6275a/transformed/play-services-location-21.1.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d6c0b256bb8f42d07c2ea9e8b933df0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d6c0b256bb8f42d07c2ea9e8b933df0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c4a977d1cd43ca8acc8fc634ce3d2b31/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c4a977d1cd43ca8acc8fc634ce3d2b31/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97dc02a5214bc69fa7b0fda65d5ce36b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97dc02a5214bc69fa7b0fda65d5ce36b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:34:9-35
+	android:label
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:32:9-41
+	android:fullBackupContent
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:30:9-54
+	android:roundIcon
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:33:9-63
+	tools:targetApi
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:36:9-29
+	android:icon
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:31:9-58
+	android:allowBackup
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:35:9-45
+	android:dataExtractionRules
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:29:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:28:9-44
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:26:9-43
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:39:9-41:71
+	android:value
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:41:13-68
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:40:13-58
+activity#com.example.petcare.ui.MainActivity
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:44:9-53:20
+	android:label
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:47:13-45
+	android:windowSoftInputMode
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:48:13-55
+	android:exported
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:45:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:49:13-52:29
+action#android.intent.action.MAIN
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:51:27-74
+activity#com.example.petcare.notifications.ReminderAlertActivity
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:55:9-62:51
+	android:turnScreenOn
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:59:13-40
+	android:excludeFromRecents
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:61:13-46
+	android:showWhenLocked
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:60:13-42
+	android:launchMode
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:62:13-48
+	android:exported
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:57:13-37
+	android:showOnLockScreen
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:58:13-44
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:56:13-64
+receiver#com.example.petcare.notifications.TaskReminderReceiver
+ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:65:9-68:40
+	android:enabled
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:67:13-35
+	android:exported
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml:66:13-63
+uses-sdk
+INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:9.4.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/11e87e2e3b641eaedcf3e6dc3832b75a/transformed/viewbinding-9.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:9.4.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/11e87e2e3b641eaedcf3e6dc3832b75a/transformed/viewbinding-9.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/1ce2bd07582052b79084093417e9f100/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/1ce2bd07582052b79084093417e9f100/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/986d117157114d10de895e02bd1d25fe/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/986d117157114d10de895e02bd1d25fe/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/7d62ae3fb221ef039a764e02ff3f9446/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/7d62ae3fb221ef039a764e02ff3f9446/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a1b0dc747d68160c7b3d9c71836ff663/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a1b0dc747d68160c7b3d9c71836ff663/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/2d7532ae2acf0ddc672ffa11e9391d7e/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/2d7532ae2acf0ddc672ffa11e9391d7e/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/dc3c768a66cdf04ff79217a563865485/transformed/navigation-fragment-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/dc3c768a66cdf04ff79217a563865485/transformed/navigation-fragment-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d1152ef25f952438271a8868300a5ccf/transformed/navigation-ui-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d1152ef25f952438271a8868300a5ccf/transformed/navigation-ui-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3c11285bf4c12b10c5b7b82eefb56e8f/transformed/navigation-ui-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3c11285bf4c12b10c5b7b82eefb56e8f/transformed/navigation-ui-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fea852b416ef81daf5b16d9f85acc8af/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fea852b416ef81daf5b16d9f85acc8af/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d0a66d2fbffd629f1e78fdeca025d6e1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d0a66d2fbffd629f1e78fdeca025d6e1/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/53d2956c8d5ea192b60362e7ba13eccd/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/53d2956c8d5ea192b60362e7ba13eccd/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/cc6ea684d9a9cd7728bb2c95931c5210/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/cc6ea684d9a9cd7728bb2c95931c5210/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/bb0d193364fea9ac356a460179cf935a/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/bb0d193364fea9ac356a460179cf935a/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/7a319bfd6d896df205ce03d3e1ea6f78/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/7a319bfd6d896df205ce03d3e1ea6f78/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/609438b2be5ff0e98567c966ecd6275a/transformed/play-services-location-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/609438b2be5ff0e98567c966ecd6275a/transformed/play-services-location-21.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d6c0b256bb8f42d07c2ea9e8b933df0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d6c0b256bb8f42d07c2ea9e8b933df0/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fff72941c6e344ccca3267a251b1bca7/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fff72941c6e344ccca3267a251b1bca7/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/70ab5c32cda755f57a8888c42a8e315a/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/70ab5c32cda755f57a8888c42a8e315a/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/b32314acb3c64728c7df6a1e9a4a051d/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/b32314acb3c64728c7df6a1e9a4a051d/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/47d293c35761b22b19448b86a1074fc6/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/47d293c35761b22b19448b86a1074fc6/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/905fbb0892cae139aed85fa1e1695388/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/905fbb0892cae139aed85fa1e1695388/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/afdb9306882d1880ee5ce31b3d41ccfc/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/afdb9306882d1880ee5ce31b3d41ccfc/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/80dc9cf179a487ea36c929912e9c5a5c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/80dc9cf179a487ea36c929912e9c5a5c/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/43f0a634e806282a6904c7facda4aebf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/43f0a634e806282a6904c7facda4aebf/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e53d851f0d259ba0c8fa28deb2242e69/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e53d851f0d259ba0c8fa28deb2242e69/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d6becdff6990233d5c49fb509019977f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/d6becdff6990233d5c49fb509019977f/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/207d340ad8226939614efb21bea4fb62/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/207d340ad8226939614efb21bea4fb62/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/16988b81fcaadd252955995c34987f0f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/16988b81fcaadd252955995c34987f0f/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fe51be70f8b849f9bf3e8a0d89b4857a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fe51be70f8b849f9bf3e8a0d89b4857a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/cc38bda53bdfdace801ff203e61fabc9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/cc38bda53bdfdace801ff203e61fabc9/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/533e5c16bb6f2d9a623810beda8f94f9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/533e5c16bb6f2d9a623810beda8f94f9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/72a622baeeced88a38fb6d95b5d06c88/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/72a622baeeced88a38fb6d95b5d06c88/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6179c0d109ad7152bc2000a5693441e2/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6179c0d109ad7152bc2000a5693441e2/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a18847f99728202a29aec7ab020f555e/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a18847f99728202a29aec7ab020f555e/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/f16a5e99c0d20b9737d31f56bf6640a3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/f16a5e99c0d20b9737d31f56bf6640a3/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3da809cb98a17c963a6906ef0eaa58a5/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3da809cb98a17c963a6906ef0eaa58a5/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9f07160f084b2f2d40517aa956939d65/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9f07160f084b2f2d40517aa956939d65/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4ab2aad2e8bd9910acd0bf230a6865f8/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4ab2aad2e8bd9910acd0bf230a6865f8/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3088c1355f40fda476db94ea060d0180/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/3088c1355f40fda476db94ea060d0180/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e96bac933f431a9684dba57b41ad99d0/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e96bac933f431a9684dba57b41ad99d0/transformed/lifecycle-livedata-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fe27174087b22ea2fbd2c4342a03bf3e/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/fe27174087b22ea2fbd2c4342a03bf3e/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/984e7d63483da359cb790af3bb4fba4a/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/984e7d63483da359cb790af3bb4fba4a/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/0260cc5ab6d7cfa97dcbe33f3aaadb19/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/0260cc5ab6d7cfa97dcbe33f3aaadb19/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e98bfe30eb32fd845bb53703ab51fd13/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e98bfe30eb32fd845bb53703ab51fd13/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a42d2f25934a16882dd98bac2fdf5da6/transformed/room-ktx-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a42d2f25934a16882dd98bac2fdf5da6/transformed/room-ktx-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/383d0ba61928bf38bd59c69638b8f727/transformed/annotation-experimental-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.5.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/383d0ba61928bf38bd59c69638b8f727/transformed/annotation-experimental-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/21c9a632145e95097666665ba2ac8bc0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/21c9a632145e95097666665ba2ac8bc0/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6b91cca1928d81a813f554dc313b983b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6b91cca1928d81a813f554dc313b983b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/986fe670b3537cd976ef7d229f3846bf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/986fe670b3537cd976ef7d229f3846bf/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c4a977d1cd43ca8acc8fc634ce3d2b31/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c4a977d1cd43ca8acc8fc634ce3d2b31/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97dc02a5214bc69fa7b0fda65d5ce36b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97dc02a5214bc69fa7b0fda65d5ce36b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4a3c3d358c3a59abdaa52ef1676a93ce/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4a3c3d358c3a59abdaa52ef1676a93ce/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4e338aa8c7bdd14d3ea2f69c0d8be174/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4e338aa8c7bdd14d3ea2f69c0d8be174/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/bc9cdeed8556f97c4bcc2635610f9f26/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/bc9cdeed8556f97c4bcc2635610f9f26/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c98747b029542a801df14f919b2bc08a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/c98747b029542a801df14f919b2bc08a/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bf64f9f462d61e43fcdc0184b8009bb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bf64f9f462d61e43fcdc0184b8009bb/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/b467371abbfd30c7d90d3abbf9250229/transformed/sqlite-framework/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework-android:2.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/b467371abbfd30c7d90d3abbf9250229/transformed/sqlite-framework/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e2f61e7ea8f1f051a6900f776ff9c666/transformed/sqlite/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-android:2.6.2] /Users/suvekxa/.gradle/caches/9.6.0/transforms/e2f61e7ea8f1f051a6900f776ff9c666/transformed/sqlite/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/suvekxa/Desktop/Petcare/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97dc02a5214bc69fa7b0fda65d5ce36b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97dc02a5214bc69fa7b0fda65d5ce36b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/97888feab103249afbc164e8321cc197/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/9bcd80a8c114a295011733e47b1ac335/transformed/play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/77c904d64291c4401dac66785bfce3b7/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/df23566b791cf004be262a6c7ae0a9c4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/4d28486e63f6182f6c554b6b72a09758/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.example.petcare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.petcare.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/a66acc2377f744acff1780281a33a108/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/99089af75786b00049ddd49e4c76101d/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime-android:2.8.5] /Users/suvekxa/.gradle/caches/9.6.0/transforms/67c962cbc0e46d28defe61b683e3f7f6/transformed/room-runtime/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/suvekxa/.gradle/caches/9.6.0/transforms/6c25b867154404f203f19a1d86b95035/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

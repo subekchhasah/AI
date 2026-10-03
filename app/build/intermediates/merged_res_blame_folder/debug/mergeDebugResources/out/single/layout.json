@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_checklist.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_checklist.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_add_edit_routine.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_routine.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_expense_list.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_expense_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_location_list.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_location_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_add_edit_task.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_task.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_settings.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/item_task_card.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_task_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_add_edit_expense.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_expense.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_map.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/item_pet_card_home.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_pet_card_home.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/item_medical_card.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_medical_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/item_notification_card.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_notification_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_routine_list.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_routine_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/item_expense_card.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_expense_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_add_edit_location.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_location.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_home.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_sms_delegation.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_sms_delegation.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/item_pet_card.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_pet_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_pet_list.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_pet_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_welcome.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_welcome.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_add_edit_pet.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_pet.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/activity_reminder_alert.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/activity_reminder_alert.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_login.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_notification_bottom_sheet.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_notification_bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/item_location_card.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/item_location_card.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_pet_detail.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_pet_detail.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_register.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.example.petcare.app-mergeDebugResources-51:/layout/fragment_notification_list.xml",
+        "source": "com.example.petcare.app-main-54:/layout/fragment_notification_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_medical_list.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_medical_list.xml"
+    },
+    {
+        "merged": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-mergeDebugResources-51:/layout/fragment_add_edit_medical.xml",
+        "source": "/Users/suvekxa/.gradle/daemon/9.6.0/com.example.petcare.app-main-54:/layout/fragment_add_edit_medical.xml"
+    }
+]

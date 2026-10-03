@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_nav_home"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/petListFragment"
+        android:icon="@drawable/ic_nav_pets"
+        android:title="@string/nav_pets" />
+    <item
+        android:id="@+id/checklistFragment"
+        android:icon="@drawable/ic_nav_checklist"
+        android:title="@string/nav_checklist" />
+    <item
+        android:id="@+id/expenseListFragment"
+        android:icon="@drawable/ic_nav_expenses"
+        android:title="@string/nav_expenses" />
+    <item
+        android:id="@+id/locationListFragment"
+        android:icon="@drawable/ic_nav_locations"
+        android:title="@string/nav_locations" />
+</menu>
