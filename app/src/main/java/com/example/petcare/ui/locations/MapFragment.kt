@@ -107,6 +107,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     }
 
     private fun setupWebViewMap() {
+        binding.webMapView.setLayerType(View.LAYER_TYPE_HARDWARE, null)
         binding.webMapView.settings.apply {
             javaScriptEnabled = true
             domStorageEnabled = true
@@ -115,6 +116,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
             allowContentAccess = true
             loadWithOverviewMode = true
             useWideViewPort = true
+            cacheMode = android.webkit.WebSettings.LOAD_CACHE_ELSE_NETWORK
             mixedContentMode = android.webkit.WebSettings.MIXED_CONTENT_ALWAYS_ALLOW
             userAgentString = "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36 PetCareApp/1.0"
         }
