@@ -24,7 +24,11 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.LatLngBounds
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.TileOverlay
+import com.google.android.gms.maps.model.TileOverlayOptions
+import com.google.android.gms.maps.model.UrlTileProvider
 import com.google.android.material.snackbar.Snackbar
+import java.net.URL
 
 class MapFragment : Fragment(), OnMapReadyCallback {
 
@@ -34,6 +38,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     private val locationViewModel: LocationViewModel by viewModels()
     private val petViewModel: PetViewModel by viewModels()
     private var googleMap: GoogleMap? = null
+    private var currentTileOverlay: TileOverlay? = null
     private var locationList: List<PetLocation> = emptyList()
     private var petList: List<Pet> = emptyList()
     private var isCameraInitialized = false
@@ -77,13 +82,13 @@ class MapFragment : Fragment(), OnMapReadyCallback {
         binding.mapView.getMapAsync(this)
 
         binding.toggleMapMode.check(R.id.btn_mode_street)
-        showNativeMap(isSatellite = false)
+        showWebMap(isSatellite = false)
 
         binding.toggleMapMode.addOnButtonCheckedListener { _, checkedId, isChecked ->
             if (isChecked) {
                 when (checkedId) {
-                    R.id.btn_mode_satellite -> showNativeMap(isSatellite = true)
-                    R.id.btn_mode_street -> showNativeMap(isSatellite = false)
+                    R.id.btn_mode_satellite -> showWebMap(isSatellite = true)
+                    R.id.btn_mode_street -> showWebMap(isSatellite = false)
                 }
             }
         }
@@ -100,12 +105,22 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     }
 
     private fun updateAllMapMarkers() {
-        if (binding.mapView.visibility == View.VISIBLE) {
-            updateGoogleMapMarkers(locationList)
-        } else if (isWebViewInitialized) {
-            val isSatellite = binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite
+        val isSatellite = binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite
+        if (binding.webMapView.visibility == View.VISIBLE && isWebViewInitialized) {
             updateWebMapMarkers(locationList, isSatellite)
+        } else if (binding.mapView.visibility == View.VISIBLE) {
+            updateGoogleMapMarkers(locationList)
         }
+    }
+
+    private fun showWebMap(isSatellite: Boolean = false) {
+        binding.mapView.visibility = View.GONE
+        binding.webMapView.visibility = View.VISIBLE
+        if (!isWebViewInitialized) {
+            setupWebViewMap()
+            isWebViewInitialized = true
+        }
+        updateWebMapMarkers(locationList, isSatellite)
     }
 
     private fun showNativeMap(isSatellite: Boolean = false) {
@@ -113,7 +128,34 @@ class MapFragment : Fragment(), OnMapReadyCallback {
         binding.webMapView.visibility = View.GONE
         googleMap?.let { map ->
             map.mapType = if (isSatellite) GoogleMap.MAP_TYPE_HYBRID else GoogleMap.MAP_TYPE_NORMAL
+            applyTileOverlay(isSatellite)
             updateGoogleMapMarkers(locationList)
+        }
+    }
+
+    private fun applyTileOverlay(isSatellite: Boolean) {
+        googleMap?.let { map ->
+            currentTileOverlay?.remove()
+            val tileProvider = object : UrlTileProvider(256, 256) {
+                override fun getTileUrl(x: Int, y: Int, zoom: Int): URL? {
+                    val urlString = if (isSatellite) {
+                        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/$zoom/$y/$x"
+                    } else {
+                        "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/$zoom/$y/$x"
+                    }
+                    return try {
+                        URL(urlString)
+                    } catch (e: Exception) {
+                        null
+                    }
+                }
+            }
+            currentTileOverlay = map.addTileOverlay(
+                TileOverlayOptions()
+                    .tileProvider(tileProvider)
+                    .transparency(0f)
+                    .fadeIn(true)
+            )
         }
     }
 
@@ -265,11 +307,13 @@ class MapFragment : Fragment(), OnMapReadyCallback {
         map.uiSettings.isZoomControlsEnabled = true
         map.uiSettings.isCompassEnabled = true
         map.uiSettings.isMapToolbarEnabled = true
-        map.mapType = if (binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite) {
+        val isSatellite = binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite
+        map.mapType = if (isSatellite) {
             GoogleMap.MAP_TYPE_HYBRID
         } else {
             GoogleMap.MAP_TYPE_NORMAL
         }
+        applyTileOverlay(isSatellite)
         checkLocationPermission()
         updateGoogleMapMarkers(locationList)
     }
