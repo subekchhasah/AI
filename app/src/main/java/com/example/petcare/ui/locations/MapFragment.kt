@@ -19,6 +19,7 @@ import com.example.petcare.ui.viewmodel.LocationViewModel
 import com.example.petcare.ui.viewmodel.PetViewModel
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.MapsInitializer
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.LatLngBounds
@@ -35,6 +36,8 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     private var googleMap: GoogleMap? = null
     private var locationList: List<PetLocation> = emptyList()
     private var petList: List<Pet> = emptyList()
+    private var isCameraInitialized = false
+    private var isWebViewInitialized = false
 
     private val locationPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
@@ -60,15 +63,18 @@ class MapFragment : Fragment(), OnMapReadyCallback {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        
+        // Fast-path GPU vector renderer initialization
         try {
-            com.google.android.gms.maps.MapsInitializer.initialize(requireContext())
+            MapsInitializer.initialize(requireContext().applicationContext, MapsInitializer.Renderer.LATEST) {
+                // Renderer initialized
+            }
         } catch (e: Exception) {
             e.printStackTrace()
         }
+
         binding.mapView.onCreate(savedInstanceState)
         binding.mapView.getMapAsync(this)
-
-        setupWebViewMap()
 
         binding.toggleMapMode.check(R.id.btn_mode_street)
         showNativeMap(isSatellite = false)
@@ -94,16 +100,21 @@ class MapFragment : Fragment(), OnMapReadyCallback {
     }
 
     private fun updateAllMapMarkers() {
-        val isSatellite = binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite
-        updateGoogleMapMarkers(locationList)
-        updateWebMapMarkers(locationList, isSatellite)
+        if (binding.mapView.visibility == View.VISIBLE) {
+            updateGoogleMapMarkers(locationList)
+        } else if (isWebViewInitialized) {
+            val isSatellite = binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite
+            updateWebMapMarkers(locationList, isSatellite)
+        }
     }
 
     private fun showNativeMap(isSatellite: Boolean = false) {
         binding.mapView.visibility = View.VISIBLE
         binding.webMapView.visibility = View.GONE
-        googleMap?.mapType = if (isSatellite) GoogleMap.MAP_TYPE_HYBRID else GoogleMap.MAP_TYPE_NORMAL
-        updateGoogleMapMarkers(locationList)
+        googleMap?.let { map ->
+            map.mapType = if (isSatellite) GoogleMap.MAP_TYPE_HYBRID else GoogleMap.MAP_TYPE_NORMAL
+            updateGoogleMapMarkers(locationList)
+        }
     }
 
     private fun setupWebViewMap() {
@@ -234,20 +245,31 @@ class MapFragment : Fragment(), OnMapReadyCallback {
                 )
                 builder.include(pos)
             }
-            try {
-                val bounds = builder.build()
-                val padding = 120 // pixels
-                val cu = CameraUpdateFactory.newLatLngBounds(bounds, padding)
-                map.animateCamera(cu)
-            } catch (e: Exception) {
-                val firstLoc = LatLng(displayLocations.first().latitude, displayLocations.first().longitude)
-                map.moveCamera(CameraUpdateFactory.newLatLngZoom(firstLoc, 12f))
+            if (!isCameraInitialized && displayLocations.isNotEmpty()) {
+                isCameraInitialized = true
+                try {
+                    val bounds = builder.build()
+                    val padding = 120
+                    val cu = CameraUpdateFactory.newLatLngBounds(bounds, padding)
+                    map.moveCamera(cu)
+                } catch (e: Exception) {
+                    val firstLoc = LatLng(displayLocations.first().latitude, displayLocations.first().longitude)
+                    map.moveCamera(CameraUpdateFactory.newLatLngZoom(firstLoc, 13f))
+                }
             }
         }
     }
 
     override fun onMapReady(map: GoogleMap) {
         googleMap = map
+        map.uiSettings.isZoomControlsEnabled = true
+        map.uiSettings.isCompassEnabled = true
+        map.uiSettings.isMapToolbarEnabled = true
+        map.mapType = if (binding.toggleMapMode.checkedButtonId == R.id.btn_mode_satellite) {
+            GoogleMap.MAP_TYPE_HYBRID
+        } else {
+            GoogleMap.MAP_TYPE_NORMAL
+        }
         checkLocationPermission()
         updateGoogleMapMarkers(locationList)
     }
